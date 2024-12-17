@@ -1,0 +1,16 @@
+#location {
+  display: none;
+
+  /*Using "#" means that the class is an id.*/
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  color: white;
+  font-size: 16px;
+  font-family: sans-serif;
+  width: 300px;
+
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+}
